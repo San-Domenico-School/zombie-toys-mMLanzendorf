@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 62478878}
   - component: {fileID: 62478877}
   m_Layer: 0
-  m_Name: Step
+  m_Name: Step (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 227948118}
   - component: {fileID: 227948120}
   - component: {fileID: 227948119}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +661,6 @@ Transform:
   - {fileID: 1039786749}
   - {fileID: 1893093257}
   - {fileID: 449560311}
-  - {fileID: 684108276}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -941,7 +940,7 @@ GameObject:
   - component: {fileID: 357016978}
   - component: {fileID: 357016977}
   m_Layer: 0
-  m_Name: Step (1)
+  m_Name: Step (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1054,11 +1053,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 605812265}
-  - {fileID: 864078650}
+  - {fileID: 1177882596}
   - {fileID: 1831693371}
   - {fileID: 1891224304}
   - {fileID: 53647303}
-  - {fileID: 1065103856}
   m_Father: {fileID: 321683857}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1075,7 +1073,7 @@ GameObject:
   - component: {fileID: 469851436}
   - component: {fileID: 469851435}
   m_Layer: 0
-  m_Name: Step (4)
+  m_Name: Step (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1256,7 +1254,7 @@ GameObject:
   - component: {fileID: 605812267}
   - component: {fileID: 605812266}
   m_Layer: 0
-  m_Name: Top Stair
+  m_Name: Big Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1340,37 +1338,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605812264}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &684108275
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 684108276}
-  m_Layer: 0
-  m_Name: .3 Stair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &684108276
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684108275}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 321683857}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695043219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,7 +1351,7 @@ GameObject:
   - component: {fileID: 695043222}
   - component: {fileID: 695043221}
   m_Layer: 0
-  m_Name: Step (3)
+  m_Name: Step (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1494,13 +1461,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864078649}
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -2.687006, y: 1.7839999, z: -2.687006}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 1.7839999, z: 0}
   m_LocalScale: {x: 3, y: 0.3, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 449560311}
-  m_RootOrder: 1
+  m_Father: {fileID: 1893093257}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!65 &864078651
 BoxCollider:
@@ -1591,7 +1558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995757495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.18, y: 0, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1695,7 +1662,7 @@ GameObject:
   - component: {fileID: 1065103858}
   - component: {fileID: 1065103857}
   m_Layer: 0
-  m_Name: Step (4)
+  m_Name: Step (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1708,13 +1675,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065103855}
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -5.2325907, y: 0.074000016, z: -5.2325892}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -2.5455847, y: 0.074000016, z: -2.5455832}
   m_LocalScale: {x: 3, y: 0.3, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 449560311}
-  m_RootOrder: 5
+  m_Father: {fileID: 1893093257}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!65 &1065103857
 BoxCollider:
@@ -1792,7 +1759,7 @@ GameObject:
   - component: {fileID: 1177882598}
   - component: {fileID: 1177882597}
   m_Layer: 0
-  m_Name: Top Stair
+  m_Name: Big Step (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1806,12 +1773,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177882595}
   m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 3.1112707, y: 1.0999999, z: 3.1112711}
+  m_LocalPosition: {x: 0.4242649, y: 1.0999999, z: 0.4242649}
   m_LocalScale: {x: 3, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1893093257}
-  m_RootOrder: 0
+  m_Father: {fileID: 449560311}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!65 &1177882597
 BoxCollider:
@@ -2017,7 +1984,7 @@ GameObject:
   - component: {fileID: 1388088611}
   - component: {fileID: 1388088610}
   m_Layer: 0
-  m_Name: Step (2)
+  m_Name: Step (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2241,7 +2208,7 @@ GameObject:
   - component: {fileID: 1567055736}
   - component: {fileID: 1567055735}
   - component: {fileID: 1567055734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2419,7 +2386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666418529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2790,12 +2757,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1177882596}
+  - {fileID: 864078650}
   - {fileID: 62478876}
   - {fileID: 357016976}
   - {fileID: 1388088609}
   - {fileID: 695043220}
   - {fileID: 469851434}
+  - {fileID: 1065103856}
   m_Father: {fileID: 321683857}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2943,7 +2911,7 @@ GameObject:
   - component: {fileID: 1980259617}
   - component: {fileID: 1980259616}
   - component: {fileID: 1980259618}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2958,7 +2926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980259612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 1, z: 3.37}
+  m_LocalPosition: {x: -1, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
