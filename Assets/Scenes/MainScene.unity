@@ -186,12 +186,6 @@ Transform:
   m_Father: {fileID: 237631711}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &112633158 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6548935607574183205, guid: 403c8d8e4b2aa426b9520e87bf7af811,
-    type: 3}
-  m_PrefabInstance: {fileID: 6548935607957098587}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &237631710
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 334752763}
-  EnemyTarget: {fileID: 112633158}
+  EnemyTarget: {fileID: 334752760}
   delayOnPlayerDeath: 5
   infoText: {fileID: 0}
   gameoverText: {fileID: 1372841794}
