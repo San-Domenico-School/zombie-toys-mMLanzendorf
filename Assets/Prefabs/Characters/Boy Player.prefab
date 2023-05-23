@@ -122,7 +122,7 @@ MonoBehaviour:
   lightningAttack: {fileID: 7869800126107794070}
   frostAttack: {fileID: 5404242157418632545}
   stinkAttack: {fileID: 6520527499505246548}
-  slimeAttack: {fileID: 0}
+  slimeAttack: {fileID: 2336022738311097184}
   prototypeAttack: {fileID: 6548935608197684707}
   countDown: {fileID: 0}
 --- !u!114 &6548935607715068839
@@ -292,6 +292,7 @@ Transform:
   - {fileID: 7869800126096766038}
   - {fileID: 5404242157425507741}
   - {fileID: 6520527499511018316}
+  - {fileID: 2336022738322092356}
   m_Father: {fileID: 6548935607574183205}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -457,6 +458,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28c6f9c0e971b8e489125a9d3d9e2840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &2336022738321992672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6548935608197684716}
+    m_Modifications:
+    - target: {fileID: 196232, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_Name
+      value: SlimeAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419776, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+      propertyPath: slimeProjectile
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5, type: 3}
+--- !u!114 &2336022738311097184 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11419776, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2336022738321992672}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a33c04a8d23803469f4cbc0b3c499f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2336022738322092356 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 432804, guid: 791862d102bcf41e7a3a1a4eb1f1e1d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2336022738321992672}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2746840111705709157
 PrefabInstance:
   m_ObjectHideFlags: 0
