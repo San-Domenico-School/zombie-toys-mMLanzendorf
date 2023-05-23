@@ -1132,7 +1132,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.9513808e+29, y: 2.9971125e+12, z: 3.277342e+9, w: 0.000000011427416}
+  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1987,7 +1987,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3e-45, z: 5.168e-42, w: 1.05e-43}
+  m_BoundingSphereOverride: {x: 0, y: 1.044e-42, z: 1.02e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2511,7 +2511,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.5284974e-19}
+  m_BoundingSphereOverride: {x: 1e-45, y: 8e-44, z: 0, w: 8e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3306,7 +3306,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3e-45, y: 2.96e-43, z: 0, w: -4.1420972e-24}
+  m_BoundingSphereOverride: {x: 1e-45, y: 4.9e-44, z: 0, w: 6.032169e-11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3341,7 +3341,7 @@ PrefabInstance:
     - target: {fileID: 8754125978433180619, guid: 44bc9f51b14dc451295beef381814c85,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.001909092
+      value: -0.0019090176
       objectReference: {fileID: 0}
     - target: {fileID: 8754125978433180619, guid: 44bc9f51b14dc451295beef381814c85,
         type: 3}
@@ -3412,7 +3412,7 @@ ReflectionProbe:
   m_Resolution: 128
   m_UpdateFrequency: 0
   m_BoxSize: {x: 10, y: 10, z: 10}
-  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_BoxOffset: {x: -0.41735172, y: 2.3042698, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
